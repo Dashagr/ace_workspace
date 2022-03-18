@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1638274153758" workspaceResource="/JSON_to_XML/IBMdefined/soap.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/IBMdefined/soap.xsd.&#xA;Successfully added file JSON_to_XML/IBMdefined/soap.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="IBMdefined/soap.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638271438738" workspaceResource="/JSON_to_XML/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/application.descriptor.&#xA;Successfully added file JSON_to_XML/application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file JSON_to_XML/application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638445487673" workspaceResource="/JSON_to_XML/json_to_xml_flow.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/json_to_xml_flow.msgflow.&#xA;Successfully added file JSON_to_XML/json_to_xml_flow.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="json_to_xml_flow.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638276954016" workspaceResource="/JSON_to_XML/json_to_xml_flow_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/json_to_xml_flow_Mapping.map.&#xA;Successfully added file JSON_to_XML/json_to_xml_flow_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="json_to_xml_flow_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638275591172" workspaceResource="/JSON_to_XML/json_to_xml_flow_inputMessage.xml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/json_to_xml_flow_inputMessage.xml.&#xA;Successfully added file JSON_to_XML/json_to_xml_flow_inputMessage.xml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="json_to_xml_flow_inputMessage.xml"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638275301244" workspaceResource="/JSON_to_XML/note_json (copy).json">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/note_json (copy).json.&#xA;Successfully added file JSON_to_XML/note_json (copy).json to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file JSON_to_XML/note_json (copy).json to BAR file.&#xA;" severity="0"/>
+      <barEntry name="note_json (copy).json"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638275301244" workspaceResource="/JSON_to_XML/note_json.json">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/note_json.json.&#xA;Successfully added file JSON_to_XML/note_json.json to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file JSON_to_XML/note_json.json to BAR file.&#xA;" severity="0"/>
+      <barEntry name="note_json.json"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1638274462892" workspaceResource="/JSON_to_XML/xmlschema.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file JSON_to_XML/xmlschema.xsd.&#xA;Successfully added file JSON_to_XML/xmlschema.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="xmlschema.xsd"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

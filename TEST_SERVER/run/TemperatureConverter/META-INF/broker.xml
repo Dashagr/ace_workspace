@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="gen.CtoF_Request_Response" type="subflow"/>
+<CompiledMessageFlow name="gen.TemperatureConverterInputCatchHandler" type="subflow"/>
+<CompiledMessageFlow name="gen.FtoC_Request_Response" type="subflow"/>
+<CompiledMessageFlow name="gen.TemperatureConverterInputHTTPTimeoutHandler" type="subflow"/>
+<CompiledMessageFlow name="gen.TemperatureConverterInputFailureHandler" type="subflow"/>
+<CompiledMessageFlow name="gen.TemperatureConverter">
+<ConfigurableProperty uri="gen.TemperatureConverter#additionalInstances"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#processingTimeoutSec"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#processingTimeoutAction"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#wlmPolicy"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#commitCount"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#commitInterval"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#coordinatedTransaction"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#consumerPolicySet"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#providerPolicySet"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#providerPolicySetBindings"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#securityProfileName"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#monitoringProfile"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#startMode"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="/TemperatureConverter/TemperatureConverter" uri="gen.TemperatureConverter#SOAP Input.urlSelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.useHTTPS"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.maxClientWaitTime"/>
+<ConfigurableProperty override="yes" uri="gen.TemperatureConverter#SOAP Input.allowQueryWSDL"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.initialContextFactory"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.locationJndiBindings"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.connectionFactoryName"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.backoutDestination"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.backoutThreshold"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.propertySelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.timeStampSelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.messageDeliveryModeSelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.messagePrioritySelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.messageIDSelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.messageRedeliveredSelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.messageCorrelationIDSelector"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.targetService"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.securityProfileName"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.policySet"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.policySetBindings"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.sendProcessingFaultsToFailure"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.validateMaster"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.validateFailureAction"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.componentLevel"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Input.additionalInstances"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Reply.allowMTOM"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Reply.validateMaster"/>
+<ConfigurableProperty uri="gen.TemperatureConverter#SOAP Reply.securityProfileName"/>
+</CompiledMessageFlow>
+</Broker>

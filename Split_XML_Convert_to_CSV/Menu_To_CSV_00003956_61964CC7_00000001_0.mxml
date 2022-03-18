@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageAssembly iib:parser="GENERICROOT" xmlns:iib="http://com.ibm.iib/lt/1.0">
+   <version xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</version>
+   <checkpoint>
+      <messageId xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">00003956-61964CC7-00000001</messageId>
+      <propagationCount xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">0</propagationCount>
+      <nodeCallDepth xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</nodeCallDepth>
+      <timestamp xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="TIMESTAMP">2021-11-18 12:53:27.679122</timestamp>
+      <source>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">HTTP Input</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV#FCMComposite_1_1</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmWSInputNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">out</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Split_XML_Convert_to_CSV</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">HTTP Input</node>
+         </nodePath>
+         <inputNode xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="BOOLEAN">TRUE</inputNode>
+      </source>
+      <target>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MQ Get</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV#FCMComposite_1_2</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmMQGetNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">in</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Split_XML_Convert_to_CSV</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MQ Get</node>
+         </nodePath>
+      </target>
+   </checkpoint>
+   <environment/>
+   <localEnvironment xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="MQROOT">
+      <Destination>
+         <HTTP>
+            <RequestIdentifier iib:valueType="BLOB">455648540000000000000000ffeb1b335439000000000000</RequestIdentifier>
+         </HTTP>
+      </Destination>
+   </localEnvironment>
+   <exceptionList/>
+   <message xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="WSRoot">
+      <Properties iib:parser="WSPROPERTYPARSER">
+         <MessageSet iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageFormat iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <Encoding iib:valueType="INTEGER">546</Encoding>
+         <CodedCharSetId iib:valueType="INTEGER">1208</CodedCharSetId>
+         <Transactional iib:valueType="BOOLEAN">FALSE</Transactional>
+         <Persistence iib:valueType="BOOLEAN">FALSE</Persistence>
+         <CreationTime iib:valueType="GMTTIMESTAMP">2021-11-18 12:53:27.679122</CreationTime>
+         <ExpirationTime iib:valueType="INTEGER">-1</ExpirationTime>
+         <Priority iib:valueType="INTEGER">0</Priority>
+         <ReplyIdentifier iib:valueType="BLOB">000000000000000000000000000000000000000000000000</ReplyIdentifier>
+         <ReplyProtocol iib:valueType="CHARACTER">SOAP-HTTP</ReplyProtocol>
+         <Topic iib:elementType="0x03000000"/>
+         <ContentType iib:valueType="CHARACTER">text/plain; charset=utf-8</ContentType>
+         <IdentitySourceType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourcePassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedPassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+      </Properties>
+      <HTTPInputHeader iib:parser="WSINPHDR">
+         <Content-Type iib:valueType="CHARACTER">text/plain; charset=utf-8</Content-Type>
+         <User-Agent iib:valueType="CHARACTER">Java/1.8.0_271</User-Agent>
+         <Host iib:valueType="CHARACTER">localhost:7801</Host>
+         <Accept iib:valueType="CHARACTER">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</Accept>
+         <Connection iib:valueType="CHARACTER">keep-alive</Connection>
+         <Content-Length iib:valueType="CHARACTER">1385</Content-Length>
+         <X-Original-HTTP-Command iib:valueType="CHARACTER">POST http://localhost:7801/menuToCSV HTTP/1.1</X-Original-HTTP-Command>
+         <X-Server-Name iib:valueType="CHARACTER">localhost</X-Server-Name>
+         <X-Server-Port iib:valueType="CHARACTER">7801</X-Server-Port>
+         <X-Remote-Addr iib:valueType="CHARACTER">127.0.0.1</X-Remote-Addr>
+         <X-Remote-Host iib:valueType="CHARACTER">localhost</X-Remote-Host>
+         <X-Scheme iib:valueType="CHARACTER">http</X-Scheme>
+      </HTTPInputHeader>
+      <BLOB iib:parser="none">
+         <UnknownParserName iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <BLOB iib:valueType="BLOB">3c3f786d6c2076657273696f6e3d22312e312220656e636f64696e673d225554462d3822203f3e0a3c6d656e753e0a202020203c627265616b666173745f6d656e753e0a20202020202020203c666f6f643e0a2020202020202020202020203c6e616d653e42656c6769616e20576166666c65733c2f6e616d653e0a2020202020202020202020203c70726963653e352e39353c2f70726963653e0a2020202020202020202020203c6465736372697074696f6e3e54776f206f66206f75722066616d6f75732042656c6769616e20576166666c6573207769746820706c656e7479206f66207265616c206d61706c652073797275703c2f6465736372697074696f6e3e0a2020202020202020202020203c63616c6f726965733e313635303c2f63616c6f726965733e0a20202020202020203c2f666f6f643e0a20202020202020203c666f6f643e0a2020202020202020202020203c6e616d653e537472617762657272792042656c6769616e20576166666c65733c2f6e616d653e0a2020202020202020202020203c70726963653e372e39353c2f70726963653e0a2020202020202020202020203c6465736372697074696f6e3e4c696768742042656c6769616e20776166666c657320636f766572656420776974682073747261776265727269657320616e64207768697070656420637265616d3c2f6465736372697074696f6e3e0a2020202020202020202020203c63616c6f726965733e313930303c2f63616c6f726965733e0a20202020202020203c2f666f6f643e0a20202020202020203c666f6f643e0a2020202020202020202020203c6e616d653e42657272792d42657272792042656c6769616e20576166666c65733c2f6e616d653e0a2020202020202020202020203c70726963653e382e39353c2f70726963653e0a2020202020202020202020203c6465736372697074696f6e3e4c696768742042656c6769616e20776166666c657320636f7665726564207769746820616e206173736f72746d656e74206f66206672657368206265727269657320616e64207768697070656420637265616d3c2f6465736372697074696f6e3e0a2020202020202020202020203c63616c6f726965733e313530303c2f63616c6f726965733e0a20202020202020203c2f666f6f643e0a202020203c2f627265616b666173745f6d656e753e0a202020203c6c756e63683e0a20202020202020203c666f6f643e0a2020202020202020202020203c6e616d653e4672656e636820546f6173743c2f6e616d653e0a2020202020202020202020203c70726963653e342e35303c2f70726963653e0a2020202020202020202020203c6465736372697074696f6e3e546869636b20736c69636573206d6164652066726f6d206f757220686f6d656d61646520736f7572646f7567682062726561643c2f6465736372697074696f6e3e0a2020202020202020202020203c63616c6f726965733e3630303c2f63616c6f726965733e0a20202020202020203c2f666f6f643e0a20202020202020203c666f6f643e0a2020202020202020202020203c6e616d653e486f6d657374796c6520427265616b666173743c2f6e616d653e0a2020202020202020202020203c70726963653e362e39353c2f70726963653e0a2020202020202020202020203c6465736372697074696f6e3e54776f20656767732c206261636f6e206f7220736175736167652c20746f6173742c20616e64206f757220657665722d706f70756c617220686173682062726f776e733c2f6465736372697074696f6e3e0a2020202020202020202020203c63616c6f726965733e3335303c2f63616c6f726965733e0a20202020202020203c2f666f6f643e0a202020203c2f6c756e63683e0a3c2f6d656e753e</BLOB>
+      </BLOB>
+   </message>
+</MessageAssembly>

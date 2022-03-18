@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="true" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1617106387230" workspaceResource="/TemperatureConverter/CtoFrequest.xml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\CtoFrequest.xml.&#xA;Successfully added file TemperatureConverter\CtoFrequest.xml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="CtoFrequest.xml"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387230" workspaceResource="/TemperatureConverter/FtoCrequest.xml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\FtoCrequest.xml.&#xA;Successfully added file TemperatureConverter\FtoCrequest.xml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="FtoCrequest.xml"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/IBMdefined/org/w3/www/xml/_1998/namespace/xml.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd.&#xA;Successfully added file TemperatureConverter\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd.&#xA;Successfully added file TemperatureConverter\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/IBMdefined/soap.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\IBMdefined\soap.xsd.&#xA;Successfully added file TemperatureConverter\IBMdefined\soap.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="IBMdefined\soap.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/TemperatureConverter.wsdl">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\TemperatureConverter.wsdl.&#xA;Successfully added file TemperatureConverter\TemperatureConverter.wsdl to BAR file.&#xA;" severity="0"/>
+      <barEntry name="TemperatureConverter.wsdl"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/TemperatureConverter.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\TemperatureConverter.xsd.&#xA;Successfully added file TemperatureConverter\TemperatureConverter.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="TemperatureConverter.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/TemperatureConverter_InlineSchema1.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\TemperatureConverter_InlineSchema1.xsd.&#xA;Successfully added file TemperatureConverter\TemperatureConverter_InlineSchema1.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="TemperatureConverter_InlineSchema1.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229318820" workspaceResource="/TemperatureConverter/gen/CtoF_Request_Response.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\CtoF_Request_Response.subflow.&#xA;Successfully added file TemperatureConverter\gen\CtoF_Request_Response.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\CtoF_Request_Response.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/gen/CtoF_Request_Response_Mapping_C_to_F.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\CtoF_Request_Response_Mapping_C_to_F.map.&#xA;Successfully added file TemperatureConverter\gen\CtoF_Request_Response_Mapping_C_to_F.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen/CtoF_Request_Response_Mapping_C_to_F.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229342569" workspaceResource="/TemperatureConverter/gen/FtoC_Request_Response.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\FtoC_Request_Response.subflow.&#xA;Successfully added file TemperatureConverter\gen\FtoC_Request_Response.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\FtoC_Request_Response.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/gen/FtoC_Request_Response_Mapping_F_to_C.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\FtoC_Request_Response_Mapping_F_to_C.map.&#xA;Successfully added file TemperatureConverter\gen\FtoC_Request_Response_Mapping_F_to_C.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen/FtoC_Request_Response_Mapping_F_to_C.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229294760" workspaceResource="/TemperatureConverter/gen/TemperatureConverter.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\TemperatureConverter.msgflow.&#xA;Successfully added file TemperatureConverter\gen\TemperatureConverter.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\TemperatureConverter.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229360443" workspaceResource="/TemperatureConverter/gen/TemperatureConverterInputCatchHandler.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\TemperatureConverterInputCatchHandler.subflow.&#xA;Successfully added file TemperatureConverter\gen\TemperatureConverterInputCatchHandler.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\TemperatureConverterInputCatchHandler.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/gen/TemperatureConverterInputCatchHandler_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\TemperatureConverterInputCatchHandler_Mapping.map.&#xA;Successfully added file TemperatureConverter\gen\TemperatureConverterInputCatchHandler_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen/TemperatureConverterInputCatchHandler_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229386880" workspaceResource="/TemperatureConverter/gen/TemperatureConverterInputFailureHandler.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\TemperatureConverterInputFailureHandler.subflow.&#xA;Successfully added file TemperatureConverter\gen\TemperatureConverterInputFailureHandler.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\TemperatureConverterInputFailureHandler.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617106387245" workspaceResource="/TemperatureConverter/gen/TemperatureConverterInputFailureHandler_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\TemperatureConverterInputFailureHandler_Mapping.map.&#xA;Successfully added file TemperatureConverter\gen\TemperatureConverterInputFailureHandler_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen/TemperatureConverterInputFailureHandler_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229401597" workspaceResource="/TemperatureConverter/gen/TemperatureConverterInputHTTPTimeoutHandler.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\gen\TemperatureConverterInputHTTPTimeoutHandler.subflow.&#xA;Successfully added file TemperatureConverter\gen\TemperatureConverterInputHTTPTimeoutHandler.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen\TemperatureConverterInputHTTPTimeoutHandler.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1617229401534" workspaceResource="/TemperatureConverter/service.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TemperatureConverter\service.descriptor.&#xA;Successfully added file TemperatureConverter\service.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file TemperatureConverter\service.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="service.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

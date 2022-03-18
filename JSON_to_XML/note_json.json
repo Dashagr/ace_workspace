@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title":  "Note",
+    "decription": "A simple note",
+    "type": "object",
+    "properties": {
+         "name": {
+             "type": "string"
+         },
+         "age": {
+             "type": "integer"
+         },
+         "body": {
+             "type": "string"
+         }
+    },
+    "$required": ["name", "age", "body"]
+  }

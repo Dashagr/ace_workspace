@@ -1,0 +1,52 @@
+2022-03-18 17:10:20.200208: BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.1.0' (64-bit) 
+2022-03-18 17:10:20.229906: BIP9905I: Initializing resource managers. 
+Listening for transport dt_socket at address: 9997
+2022-03-18 17:10:58.815768: BIP9906I: Reading deployed resources. 
+2022-03-18 17:10:58.875960: BIP9907I: Initializing deployed resources. 
+2022-03-18 17:10:58.883048: BIP2155I: About to 'Initialize' the deployed resource 'DataLibrary' of type 'SharedLibrary'. 
+2022-03-18 17:10:58.887732: BIP2155I: About to 'Initialize' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 17:11:00.103218: BIP2155I: About to 'Initialize' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 17:11:08.958363: BIP3585E: Failed to create required connections in connection manager using connection details '{TCPIPPolicies}:TCPIPTutorialClient'. 
+2022-03-18 17:11:08.966001: BIP3586E: Failed to create a client connection using hostname: 'localhost', port: '7778'. Reason: 'Connection refused'. 
+2022-03-18 17:11:08.978840: BIP3585E: Failed to create required connections in connection manager using connection details '{TCPIPPolicies}:TCPIPTutorialClient'. 
+2022-03-18 17:11:08.979211: BIP3586E: Failed to create a client connection using hostname: 'localhost', port: '7778'. Reason: 'Connection refused'. 
+2022-03-18 17:11:09.000328: BIP5731W: TCPIP Server Connection manager with connection details: '{TCPIPPolicies}:TCPIPTutorialServer' is being 'started'. 
+2022-03-18 17:11:09.001430: BIP2155I: About to 'Start' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 17:11:09.001693: BIP2269I: Deployed resource 'TCPIPReceiver' (uuid='TCPIPReceiver',type='MessageFlow') started successfully. 
+2022-03-18 17:11:09.001751: BIP2155I: About to 'Start' the deployed resource 'TCPIPServer' of type 'Application'. 
+An http endpoint was registered on port '7800', path '/TestTcpip'.
+2022-03-18 17:11:09.013173: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2022-03-18 17:11:09.013236: BIP1996I: Listening on HTTP URL '/TestTcpip'. 
+Started native listener for HTTP input node on port 7800 for URL /TestTcpip
+2022-03-18 17:11:09.013411: BIP2269I: Deployed resource 'TCPIPProvider' (uuid='TCPIPProvider',type='MessageFlow') started successfully. 
+2022-03-18 17:11:12.491764: BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2022-03-18 17:11:12.519847: BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2022-03-18 17:11:12.533038: BIP1991I: Integration server has finished initialization. 
+2022-03-18 17:11:35.082712: BIP2152I: Configuration message received. 
+2022-03-18 17:11:35.082796: BIP2153I: About to 'deleteAll' an integration server. 
+2022-03-18 17:11:35.083116: BIP2155I: About to 'Stop' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 17:11:40.017628: BIP2271I: Deployed resource 'TCPIPReceiver' (uuid='TCPIPReceiver',type='MessageFlow') successfully stopped. 
+2022-03-18 17:11:40.017820: BIP2155I: About to 'TearDown' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 17:11:40.018708: BIP5731W: TCPIP Server Connection manager with connection details: '{TCPIPPolicies}:TCPIPTutorialClient' is being 'stopped'. 
+2022-03-18 17:11:40.036172: BIP2155I: About to 'Stop' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 17:11:40.036628: BIP2271I: Deployed resource 'TCPIPProvider' (uuid='TCPIPProvider',type='MessageFlow') successfully stopped. 
+2022-03-18 17:11:40.036748: BIP2155I: About to 'TearDown' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 17:11:40.056528: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2022-03-18 17:11:40.057304: BIP5731W: TCPIP Server Connection manager with connection details: '{TCPIPPolicies}:TCPIPTutorialServer' is being 'stopped'. 
+2022-03-18 17:11:40.072960: BIP9521I: Application 'TCPIPClient' has been deleted. 
+2022-03-18 17:11:40.176944: BIP9521I: Application 'TCPIPServer' has been deleted. 
+2022-03-18 17:11:40.177084: BIP2155I: About to 'TearDown' the deployed resource 'DataLibrary' of type 'SharedLibrary'. 
+2022-03-18 17:11:40.180568: BIP9521I: SharedLibrary 'DataLibrary' has been deleted. 
+2022-03-18 17:11:40.181000: BIP9521I: PolicyProject 'TCPIPPolicies' has been deleted. 
+2022-03-18 17:11:40.184744: BIP2154I: Integration server finished with Configuration message. 
+2022-03-18 17:11:51.971292: BIP2152I: Configuration message received. 
+2022-03-18 17:11:51.989244: BIP2155I: About to 'Initialize' the deployed resource 'TemperatureConverter' of type 'IntegrationService'. 
+2022-03-18 17:11:56.227776: BIP9342I: Created compiled 'XMLNSC' schema file 'TemperatureConverter/$mqsiApplication.bir'. 
+An http endpoint was registered on port '7800', path '/TemperatureConverter/TemperatureConverter'.
+2022-03-18 17:11:57.109556: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2022-03-18 17:11:57.110276: BIP1996I: Listening on HTTP URL '/TemperatureConverter/TemperatureConverter'. 
+2022-03-18 17:11:57.111204: BIP2155I: About to 'Start' the deployed resource 'TemperatureConverter' of type 'IntegrationService'. 
+2022-03-18 17:11:57.111448: BIP2269I: Deployed resource 'gen.TemperatureConverter' (uuid='gen.TemperatureConverter',type='MessageFlow') started successfully. 
+2022-03-18 17:11:57.111500: BIP9332I: IntegrationService 'TemperatureConverter' has been created successfully. 
+2022-03-18 17:11:57.111536: BIP9326I: The source 'TemperatureConverter.bar' has been successfully deployed. 
+2022-03-18 17:11:57.111688: BIP2154I: Integration server finished with Configuration message. 

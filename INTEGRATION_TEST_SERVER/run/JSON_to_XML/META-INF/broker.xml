@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="json_to_xml_flow">
+<ConfigurableProperty uri="json_to_xml_flow#additionalInstances"/>
+<ConfigurableProperty uri="json_to_xml_flow#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="json_to_xml_flow#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="json_to_xml_flow#processingTimeoutSec"/>
+<ConfigurableProperty uri="json_to_xml_flow#processingTimeoutAction"/>
+<ConfigurableProperty uri="json_to_xml_flow#wlmPolicy"/>
+<ConfigurableProperty uri="json_to_xml_flow#commitCount"/>
+<ConfigurableProperty uri="json_to_xml_flow#commitInterval"/>
+<ConfigurableProperty uri="json_to_xml_flow#coordinatedTransaction"/>
+<ConfigurableProperty uri="json_to_xml_flow#consumerPolicySet"/>
+<ConfigurableProperty uri="json_to_xml_flow#providerPolicySet"/>
+<ConfigurableProperty uri="json_to_xml_flow#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="json_to_xml_flow#providerPolicySetBindings"/>
+<ConfigurableProperty uri="json_to_xml_flow#securityProfileName"/>
+<ConfigurableProperty uri="json_to_xml_flow#monitoringProfile"/>
+<ConfigurableProperty uri="json_to_xml_flow#startMode"/>
+<ConfigurableProperty uri="json_to_xml_flow#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="/jsontoxml" uri="json_to_xml_flow#HTTP Input.URLSpecifier"/>
+<ConfigurableProperty uri="json_to_xml_flow#HTTP Input.useHTTPS"/>
+<ConfigurableProperty uri="json_to_xml_flow#HTTP Input.decompressInputMessage"/>
+<ConfigurableProperty uri="json_to_xml_flow#HTTP Input.timeoutForClient"/>
+<ConfigurableProperty uri="json_to_xml_flow#HTTP Input.faultFormat"/>
+<ConfigurableProperty override="content" uri="json_to_xml_flow#HTTP Input.validateMaster"/>
+<ConfigurableProperty uri="json_to_xml_flow#HTTP Input.securityProfileName"/>
+<ConfigurableProperty override="QMCCDT" uri="json_to_xml_flow#MQ Output.queueName"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.connection"/>
+<ConfigurableProperty override="QMTEST" uri="json_to_xml_flow#MQ Output.destinationQueueManagerName"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.queueManagerHostname"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.listenerPortNumber"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.channelName"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.securityIdentity"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.useSSL"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.SSLPeerName"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.SSLCipherSpec"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.SSLCertificateLabel"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.queueManagerName"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.replyToQMgr"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.replyToQ"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.validateMaster"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.securityProfileName"/>
+<ConfigurableProperty override="{TestMQOutputPolicy}:TestMQOutputPolicy" uri="json_to_xml_flow#MQ Output.policyUrl"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.AddRequestToGroup"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.GroupRequestFolderName"/>
+<ConfigurableProperty uri="json_to_xml_flow#MQ Output.GroupRequestTimeout"/>
+</CompiledMessageFlow>
+</Broker>

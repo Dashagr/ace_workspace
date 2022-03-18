@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageAssembly iib:parser="GENERICROOT" xmlns:iib="http://com.ibm.iib/lt/1.0">
+   <version xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</version>
+   <checkpoint>
+      <messageId xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">00002919-62067957-00000001</messageId>
+      <propagationCount xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">0</propagationCount>
+      <nodeCallDepth xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</nodeCallDepth>
+      <timestamp xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="TIMESTAMP">2022-02-11 14:57:27.183744</timestamp>
+      <source>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MessageWithRepeatingElements</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">LargeMessages#FCMComposite_1_8</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmFileInputNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">out</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">LargeMessages</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">LargeMessages</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MessageWithRepeatingElements</node>
+         </nodePath>
+         <inputNode xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="BOOLEAN">TRUE</inputNode>
+      </source>
+      <target>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ProduceMessageSlicesFromRepeatingElements</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">LargeMessages#FCMComposite_1_7</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmJavaComputeNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">in</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">LargeMessages</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">LargeMessages</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ProduceMessageSlicesFromRepeatingElements</node>
+         </nodePath>
+      </target>
+   </checkpoint>
+   <environment/>
+   <localEnvironment xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="MQROOT">
+      <File>
+         <Directory iib:valueType="CHARACTER">/home/daria/Documents/tmp</Directory>
+         <Name iib:valueType="CHARACTER">inputSalesList.xml</Name>
+         <LastModified iib:valueType="GMTTIMESTAMP">2021-03-30 17:03:28</LastModified>
+         <TimeStamp iib:valueType="CHARACTER">20220211_145727_180382</TimeStamp>
+         <Offset iib:valueType="INTEGER">0</Offset>
+         <Record iib:valueType="INTEGER">1</Record>
+         <Delimiter iib:elementType="0x03000000"/>
+         <IsEmpty iib:valueType="BOOLEAN">FALSE</IsEmpty>
+      </File>
+      <Wildcard>
+         <WildcardMatch iib:valueType="CHARACTER">putSalesList</WildcardMatch>
+      </Wildcard>
+   </localEnvironment>
+   <exceptionList/>
+   <message xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="GENERICROOT">
+      <Properties iib:parser="GENERICPROPERTYPARSER">
+         <MessageSet iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageFormat iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <Encoding iib:valueType="INTEGER">546</Encoding>
+         <CodedCharSetId iib:valueType="INTEGER">1208</CodedCharSetId>
+         <Transactional iib:valueType="BOOLEAN">FALSE</Transactional>
+         <Persistence iib:valueType="BOOLEAN">FALSE</Persistence>
+         <CreationTime iib:valueType="GMTTIMESTAMP">2022-02-11 14:57:27.183771</CreationTime>
+         <ExpirationTime iib:valueType="INTEGER">-1</ExpirationTime>
+         <Priority iib:valueType="INTEGER">0</Priority>
+         <ReplyIdentifier iib:valueType="BLOB"/>
+         <ReplyProtocol iib:valueType="CHARACTER">FILE</ReplyProtocol>
+         <Topic iib:elementType="0x03000000"/>
+         <ContentType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourcePassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedPassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+      </Properties>
+      <XMLNSC iib:parser="xmlnsc">
+         <SaleEnvelope>
+            <Header>
+               <SaleListCount iib:valueType="CHARACTER">10</SaleListCount>
+            </Header>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">K</Initial>
+                  <Initial iib:valueType="CHARACTER">A</Initial>
+                  <Surname iib:valueType="CHARACTER">Braithwaite</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">Twister</Description>
+                     <Category iib:valueType="CHARACTER">Games</Category>
+                     <Price iib:valueType="CHARACTER">00.30</Price>
+                     <Quantity iib:valueType="CHARACTER">01</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">The Times Newspaper</Description>
+                     <Category iib:valueType="CHARACTER">Books and Media</Category>
+                     <Price iib:valueType="CHARACTER">00.20</Price>
+                     <Quantity iib:valueType="CHARACTER">01</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">00.50</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">T</Initial>
+                  <Initial iib:valueType="CHARACTER">J</Initial>
+                  <Surname iib:valueType="CHARACTER">Dunnwin</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">The Origin of Species</Description>
+                     <Category iib:valueType="CHARACTER">Books and Media</Category>
+                     <Price iib:valueType="CHARACTER">22.34</Price>
+                     <Quantity iib:valueType="CHARACTER">02</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">Microscope</Description>
+                     <Category iib:valueType="CHARACTER">Miscellaneous</Category>
+                     <Price iib:valueType="CHARACTER">36.20</Price>
+                     <Quantity iib:valueType="CHARACTER">01</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">81.84</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">F</Initial>
+                  <Initial iib:valueType="CHARACTER">e</Initial>
+                  <Surname iib:valueType="CHARACTER">QoZPaLHYsCS</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">TociZoL</Description>
+                     <Category iib:valueType="CHARACTER">pOxup</Category>
+                     <Price iib:valueType="CHARACTER">14.72</Price>
+                     <Quantity iib:valueType="CHARACTER">00</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">VPwhSAirVqHLSBjcdvR</Description>
+                     <Category iib:valueType="CHARACTER">AmAPUGTRkFCZSXN</Category>
+                     <Price iib:valueType="CHARACTER">30.06</Price>
+                     <Quantity iib:valueType="CHARACTER">05</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">60.05</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">Q</Initial>
+                  <Initial iib:valueType="CHARACTER">r</Initial>
+                  <Surname iib:valueType="CHARACTER">YGnoHmh</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">yeMFwCcTMlHTgCVkWWUwZ</Description>
+                     <Category iib:valueType="CHARACTER">FavYvPJqxpTYFnY</Category>
+                     <Price iib:valueType="CHARACTER">44.14</Price>
+                     <Quantity iib:valueType="CHARACTER">07</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Description iib:valueType="CHARACTER">WPZsCWvsoR</Description>
+                     <Category iib:valueType="CHARACTER">rMTLBwkTCFPdW</Category>
+                     <Price iib:valueType="CHARACTER">27.33</Price>
+                     <Quantity iib:valueType="CHARACTER">02</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">63.33</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">g</Initial>
+                  <Initial iib:valueType="CHARACTER">Z</Initial>
+                  <Surname iib:valueType="CHARACTER">FQNIYMKgXWh</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">ZxONWTX</Description>
+                     <Category iib:valueType="CHARACTER">NqGiA</Category>
+                     <Price iib:valueType="CHARACTER">67.44</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">SHhXsycAECdSSQynTLq</Description>
+                     <Category iib:valueType="CHARACTER">YmEvPgOOHHNUaFR</Category>
+                     <Price iib:valueType="CHARACTER">74.72</Price>
+                     <Quantity iib:valueType="CHARACTER">05</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">57.04</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">A</Initial>
+                  <Initial iib:valueType="CHARACTER">e</Initial>
+                  <Surname iib:valueType="CHARACTER">wtjIOTq</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">tHTWxvqbWnEQMUUjFwEYC</Description>
+                     <Category iib:valueType="CHARACTER">XMxMRFhrMHUhyqg</Category>
+                     <Price iib:valueType="CHARACTER">21.30</Price>
+                     <Quantity iib:valueType="CHARACTER">07</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Description iib:valueType="CHARACTER">sdAgUcToFN</Description>
+                     <Category iib:valueType="CHARACTER">dbqBiAmJknjMd</Category>
+                     <Price iib:valueType="CHARACTER">21.01</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">75.64</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">W</Initial>
+                  <Initial iib:valueType="CHARACTER">g</Initial>
+                  <Surname iib:valueType="CHARACTER">mtgcdraRGIy</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Description iib:valueType="CHARACTER">SsWaIcw</Description>
+                     <Category iib:valueType="CHARACTER">kDEZX</Category>
+                     <Price iib:valueType="CHARACTER">42.34</Price>
+                     <Quantity iib:valueType="CHARACTER">05</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">GUmlMDDiVwtQIDPuXEk</Description>
+                     <Category iib:valueType="CHARACTER">nUdOyKPEQoUfOOy</Category>
+                     <Price iib:valueType="CHARACTER">22.66</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">17.04</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">t</Initial>
+                  <Initial iib:valueType="CHARACTER">R</Initial>
+                  <Surname iib:valueType="CHARACTER">bJbDbCO</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Description iib:valueType="CHARACTER">SHjLxshbckoLRjHELhPon</Description>
+                     <Category iib:valueType="CHARACTER">iFtNiGYokjQFCwd</Category>
+                     <Price iib:valueType="CHARACTER">24.71</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Description iib:valueType="CHARACTER">HfUySgZlMh</Description>
+                     <Category iib:valueType="CHARACTER">gHLGfAgbMNDgG</Category>
+                     <Price iib:valueType="CHARACTER">20.05</Price>
+                     <Quantity iib:valueType="CHARACTER">04</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">64.42</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">y</Initial>
+                  <Initial iib:valueType="CHARACTER">N</Initial>
+                  <Surname iib:valueType="CHARACTER">ErfMwkQUAar</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Description iib:valueType="CHARACTER">uYHHSpl</Description>
+                     <Category iib:valueType="CHARACTER">KhUFy</Category>
+                     <Price iib:valueType="CHARACTER">47.02</Price>
+                     <Quantity iib:valueType="CHARACTER">06</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">MvVdrjGcpfyObFwdUfr</Description>
+                     <Category iib:valueType="CHARACTER">DMInMHZwDdMyBnS</Category>
+                     <Price iib:valueType="CHARACTER">24.37</Price>
+                     <Quantity iib:valueType="CHARACTER">07</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">51.00</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">y</Initial>
+                  <Initial iib:valueType="CHARACTER">I</Initial>
+                  <Surname iib:valueType="CHARACTER">gJEqPFU</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">MJjRbiCSUCQVHWOTJCQTl</Description>
+                     <Category iib:valueType="CHARACTER">NwZEhLgBMjhncAt</Category>
+                     <Price iib:valueType="CHARACTER">04.33</Price>
+                     <Quantity iib:valueType="CHARACTER">06</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">ZDVaRGrSbC</Description>
+                     <Category iib:valueType="CHARACTER">eawEtGJAwqaXH</Category>
+                     <Price iib:valueType="CHARACTER">51.12</Price>
+                     <Quantity iib:valueType="CHARACTER">07</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">43.64</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">B</Initial>
+                  <Initial iib:valueType="CHARACTER">L</Initial>
+                  <Surname iib:valueType="CHARACTER">oROIYxodmus</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Description iib:valueType="CHARACTER">ZXgNFSw</Description>
+                     <Category iib:valueType="CHARACTER">gJjJf</Category>
+                     <Price iib:valueType="CHARACTER">75.40</Price>
+                     <Quantity iib:valueType="CHARACTER">04</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Description iib:valueType="CHARACTER">CPHhQfOTCHSNylfayBU</Description>
+                     <Category iib:valueType="CHARACTER">pZgKCtjkgRvFWev</Category>
+                     <Price iib:valueType="CHARACTER">73.26</Price>
+                     <Quantity iib:valueType="CHARACTER">05</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">53.50</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">v</Initial>
+                  <Initial iib:valueType="CHARACTER">H</Initial>
+                  <Surname iib:valueType="CHARACTER">kXJeXjB</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">CZngpBNGuojxrbUHZKeEc</Description>
+                     <Category iib:valueType="CHARACTER">pESwMxFfOelTjTF</Category>
+                     <Price iib:valueType="CHARACTER">55.54</Price>
+                     <Quantity iib:valueType="CHARACTER">04</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Description iib:valueType="CHARACTER">ArfWkAcsXM</Description>
+                     <Category iib:valueType="CHARACTER">RJXHJHUottrNS</Category>
+                     <Price iib:valueType="CHARACTER">06.51</Price>
+                     <Quantity iib:valueType="CHARACTER">00</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">40.67</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">X</Initial>
+                  <Initial iib:valueType="CHARACTER">o</Initial>
+                  <Surname iib:valueType="CHARACTER">TEFkYsZFjVV</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Description iib:valueType="CHARACTER">loMYQwl</Description>
+                     <Category iib:valueType="CHARACTER">VOFUA</Category>
+                     <Price iib:valueType="CHARACTER">03.67</Price>
+                     <Quantity iib:valueType="CHARACTER">02</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">byehEYJNeGVkcqLxgTt</Description>
+                     <Category iib:valueType="CHARACTER">ZrCfTatZtSOGauV</Category>
+                     <Price iib:valueType="CHARACTER">30.06</Price>
+                     <Quantity iib:valueType="CHARACTER">04</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">45.10</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">x</Initial>
+                  <Initial iib:valueType="CHARACTER">N</Initial>
+                  <Surname iib:valueType="CHARACTER">rLXlFVf</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">05</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Description iib:valueType="CHARACTER">qCtuijlscHYewDEdiiVbN</Description>
+                     <Category iib:valueType="CHARACTER">pKUmadONVopjAlV</Category>
+                     <Price iib:valueType="CHARACTER">40.55</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">WuaWtKettl</Description>
+                     <Category iib:valueType="CHARACTER">jjMxGgGVKbtme</Category>
+                     <Price iib:valueType="CHARACTER">55.53</Price>
+                     <Quantity iib:valueType="CHARACTER">02</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">67.06</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">o</Initial>
+                  <Initial iib:valueType="CHARACTER">I</Initial>
+                  <Surname iib:valueType="CHARACTER">oRwKTULBYpC</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Description iib:valueType="CHARACTER">AURpEif</Description>
+                     <Category iib:valueType="CHARACTER">ZmXCY</Category>
+                     <Price iib:valueType="CHARACTER">04.06</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">PdQfqMHOttUCuibxcIo</Description>
+                     <Category iib:valueType="CHARACTER">LPfkaYCpKphprBL</Category>
+                     <Price iib:valueType="CHARACTER">73.33</Price>
+                     <Quantity iib:valueType="CHARACTER">05</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">31.33</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">t</Initial>
+                  <Initial iib:valueType="CHARACTER">w</Initial>
+                  <Surname iib:valueType="CHARACTER">GaEKiCN</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">geVMDmcxhwHYpvSYJuruq</Description>
+                     <Category iib:valueType="CHARACTER">VFTDhjLULFWmrpO</Category>
+                     <Price iib:valueType="CHARACTER">70.26</Price>
+                     <Quantity iib:valueType="CHARACTER">07</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Description iib:valueType="CHARACTER">RRBQasKsYo</Description>
+                     <Category iib:valueType="CHARACTER">aheHjBijlEgOT</Category>
+                     <Price iib:valueType="CHARACTER">64.67</Price>
+                     <Quantity iib:valueType="CHARACTER">01</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">54.55</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">g</Initial>
+                  <Initial iib:valueType="CHARACTER">r</Initial>
+                  <Surname iib:valueType="CHARACTER">IXAUjDjgpPE</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Description iib:valueType="CHARACTER">UnSBoeN</Description>
+                     <Category iib:valueType="CHARACTER">bqHOI</Category>
+                     <Price iib:valueType="CHARACTER">71.34</Price>
+                     <Quantity iib:valueType="CHARACTER">05</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Description iib:valueType="CHARACTER">EZYJglwgnatCLuxcaFi</Description>
+                     <Category iib:valueType="CHARACTER">GLVaMEXfFilLTvs</Category>
+                     <Price iib:valueType="CHARACTER">66.67</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">35.11</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">N</Initial>
+                  <Initial iib:valueType="CHARACTER">A</Initial>
+                  <Surname iib:valueType="CHARACTER">jEUursG</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Description iib:valueType="CHARACTER">WgfODKMHfZqrZrYPnfWuG</Description>
+                     <Category iib:valueType="CHARACTER">vrljpYDAntRDnPd</Category>
+                     <Price iib:valueType="CHARACTER">20.14</Price>
+                     <Quantity iib:valueType="CHARACTER">00</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Description iib:valueType="CHARACTER">fpWGPHqetW</Description>
+                     <Category iib:valueType="CHARACTER">NYxsPeHwcBuWs</Category>
+                     <Price iib:valueType="CHARACTER">54.24</Price>
+                     <Quantity iib:valueType="CHARACTER">06</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">65.13</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <SaleList>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">Z</Initial>
+                  <Initial iib:valueType="CHARACTER">A</Initial>
+                  <Surname iib:valueType="CHARACTER">MxveawlNyWH</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">04</Code>
+                     <Code iib:valueType="CHARACTER">02</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Description iib:valueType="CHARACTER">oLEtGTQ</Description>
+                     <Category iib:valueType="CHARACTER">vYVTr</Category>
+                     <Price iib:valueType="CHARACTER">50.44</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Code iib:valueType="CHARACTER">03</Code>
+                     <Description iib:valueType="CHARACTER">DFSlmWMMfxGwGOdoOHS</Description>
+                     <Category iib:valueType="CHARACTER">UbwCwgyQpUblqXg</Category>
+                     <Price iib:valueType="CHARACTER">65.71</Price>
+                     <Quantity iib:valueType="CHARACTER">02</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">00.10</Balance>
+                  <Currency iib:valueType="CHARACTER">Sterling</Currency>
+               </Invoice>
+               <Invoice>
+                  <Initial iib:valueType="CHARACTER">a</Initial>
+                  <Initial iib:valueType="CHARACTER">M</Initial>
+                  <Surname iib:valueType="CHARACTER">FPJUBPW</Surname>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">06</Code>
+                     <Code iib:valueType="CHARACTER">07</Code>
+                     <Description iib:valueType="CHARACTER">EHJNadtwiPqIcFNtdnxAt</Description>
+                     <Category iib:valueType="CHARACTER">HAkApGFQpTklDSd</Category>
+                     <Price iib:valueType="CHARACTER">06.31</Price>
+                     <Quantity iib:valueType="CHARACTER">02</Quantity>
+                  </Item>
+                  <Item>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">01</Code>
+                     <Code iib:valueType="CHARACTER">00</Code>
+                     <Description iib:valueType="CHARACTER">KHRZBKqebl</Description>
+                     <Category iib:valueType="CHARACTER">aUlRPWUgACshx</Category>
+                     <Price iib:valueType="CHARACTER">10.06</Price>
+                     <Quantity iib:valueType="CHARACTER">03</Quantity>
+                  </Item>
+                  <Balance iib:valueType="CHARACTER">20.00</Balance>
+                  <Currency iib:valueType="CHARACTER">Euros</Currency>
+               </Invoice>
+            </SaleList>
+            <Trailer>
+               <CompletionTime iib:valueType="CHARACTER">12.00.00</CompletionTime>
+            </Trailer>
+         </SaleEnvelope>
+      </XMLNSC>
+   </message>
+</MessageAssembly>

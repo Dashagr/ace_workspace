@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageAssembly iib:parser="GENERICROOT" xmlns:iib="http://com.ibm.iib/lt/1.0">
+   <version xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</version>
+   <checkpoint>
+      <messageId xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">00001967-61965FF0-00000001</messageId>
+      <propagationCount xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">1</propagationCount>
+      <nodeCallDepth xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="INTEGER">2</nodeCallDepth>
+      <timestamp xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="TIMESTAMP">2021-11-18 14:15:12.855651</timestamp>
+      <source>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MQ Get</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV#FCMComposite_1_2</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmMQGetNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">out</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Split_XML_Convert_to_CSV</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">MQ Get</node>
+         </nodePath>
+         <inputNode xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="BOOLEAN">FALSE</inputNode>
+      </source>
+      <target>
+         <name xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Compute</name>
+         <identifier xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV#FCMComposite_1_4</identifier>
+         <type xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">ComIbmComputeNode</type>
+         <terminal xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">in</terminal>
+         <nodePath>
+            <application xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Split_XML_Convert_to_CSV</application>
+            <messageFlow xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Menu_To_CSV</messageFlow>
+            <node xmlns:iib="http://com.ibm.iib/lt/1.0" iib:valueType="CHARACTER">Compute</node>
+         </nodePath>
+      </target>
+   </checkpoint>
+   <environment/>
+   <localEnvironment xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="MQROOT">
+      <Destination>
+         <HTTP>
+            <RequestIdentifier iib:valueType="BLOB">455648540000000000000000d7c466336519000000000000</RequestIdentifier>
+         </HTTP>
+      </Destination>
+   </localEnvironment>
+   <exceptionList/>
+   <message xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="MQROOT">
+      <Properties iib:parser="MQPROPERTYPARSER">
+         <MessageSet iib:valueType="CHARACTER">{XMLMenuLibrary}</MessageSet>
+         <MessageType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <MessageFormat iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <Encoding iib:valueType="INTEGER">546</Encoding>
+         <CodedCharSetId iib:valueType="INTEGER">1208</CodedCharSetId>
+         <Transactional iib:valueType="BOOLEAN">FALSE</Transactional>
+         <Persistence iib:valueType="BOOLEAN">FALSE</Persistence>
+         <CreationTime iib:valueType="GMTTIMESTAMP">2021-11-18 14:12:21.450</CreationTime>
+         <ExpirationTime iib:valueType="INTEGER">-1</ExpirationTime>
+         <Priority iib:valueType="INTEGER">0</Priority>
+         <ReplyIdentifier iib:valueType="BLOB">000000000000000000000000000000000000000000000000</ReplyIdentifier>
+         <ReplyProtocol iib:valueType="CHARACTER">SOAP-HTTP</ReplyProtocol>
+         <Topic iib:elementType="0x03000000"/>
+         <ContentType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourcePassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentitySourceIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedType iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedToken iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedPassword iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <IdentityMappedIssuedBy iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+      </Properties>
+      <MQMD iib:parser="MQHMD">
+         <SourceQueue iib:elementType="0x03000000" iib:valueType="CHARACTER"/>
+         <Transactional iib:valueType="BOOLEAN">FALSE</Transactional>
+         <Encoding iib:valueType="INTEGER">546</Encoding>
+         <CodedCharSetId iib:valueType="INTEGER">1208</CodedCharSetId>
+         <Format iib:valueType="CHARACTER">MQSTR   </Format>
+         <Version iib:valueType="INTEGER">2</Version>
+         <Report iib:valueType="INTEGER">0</Report>
+         <MsgType iib:valueType="INTEGER">8</MsgType>
+         <Expiry iib:valueType="INTEGER">-1</Expiry>
+         <Feedback iib:valueType="INTEGER">0</Feedback>
+         <Priority iib:valueType="INTEGER">0</Priority>
+         <Persistence iib:valueType="INTEGER">0</Persistence>
+         <MsgId iib:valueType="BLOB">414d5120514d54455354202020202020e456966102c34122</MsgId>
+         <CorrelId iib:valueType="BLOB">000000000000000000000000000000000000000000000000</CorrelId>
+         <BackoutCount iib:valueType="INTEGER">0</BackoutCount>
+         <ReplyToQ iib:valueType="CHARACTER">                                                </ReplyToQ>
+         <ReplyToQMgr iib:valueType="CHARACTER">QMTEST                                          </ReplyToQMgr>
+         <UserIdentifier iib:valueType="CHARACTER">daria       </UserIdentifier>
+         <AccountingToken iib:valueType="BLOB">0431303030000000000000000000000000000000000000000000000000000006</AccountingToken>
+         <ApplIdentityData iib:valueType="CHARACTER">                                </ApplIdentityData>
+         <PutApplType iib:valueType="INTEGER">6</PutApplType>
+         <PutApplName iib:valueType="CHARACTER">MQ Explorer 9.2.0           </PutApplName>
+         <PutDate iib:valueType="DATE">2021-11-18</PutDate>
+         <PutTime iib:valueType="GMTTIME">14:12:21.450</PutTime>
+         <ApplOriginData iib:valueType="CHARACTER">    </ApplOriginData>
+         <GroupId iib:valueType="BLOB">000000000000000000000000000000000000000000000000</GroupId>
+         <MsgSeqNumber iib:valueType="INTEGER">1</MsgSeqNumber>
+         <Offset iib:valueType="INTEGER">0</Offset>
+         <MsgFlags iib:valueType="INTEGER">0</MsgFlags>
+         <OriginalLength iib:valueType="INTEGER">-1</OriginalLength>
+      </MQMD>
+      <XMLNSC iib:parser="xmlnsc">
+         <XmlDeclaration iib:elementType="0x01000400">
+            <Version iib:elementType="0x03000100" iib:valueType="CHARACTER">1.1</Version>
+            <Encoding iib:elementType="0x03000100" iib:valueType="CHARACTER">UTF-8</Encoding>
+         </XmlDeclaration>
+         <menu>
+            <breakfast_menu>
+               <food>
+                  <name iib:valueType="CHARACTER">Belgian Waffles</name>
+                  <price iib:valueType="CHARACTER">5.95</price>
+                  <description iib:valueType="CHARACTER">Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+                  <calories iib:valueType="CHARACTER">1650</calories>
+               </food>
+               <food>
+                  <name iib:valueType="CHARACTER">Strawberry Belgian Waffles</name>
+                  <price iib:valueType="CHARACTER">7.95</price>
+                  <description iib:valueType="CHARACTER">Light Belgian waffles covered with strawberries and whipped cream</description>
+                  <calories iib:valueType="CHARACTER">1900</calories>
+               </food>
+               <food>
+                  <name iib:valueType="CHARACTER">Berry-Berry Belgian Waffles</name>
+                  <price iib:valueType="CHARACTER">8.95</price>
+                  <description iib:valueType="CHARACTER">Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+                  <calories iib:valueType="CHARACTER">1500</calories>
+               </food>
+            </breakfast_menu>
+            <lunch>
+               <food>
+                  <name iib:valueType="CHARACTER">French Toast</name>
+                  <price iib:valueType="CHARACTER">4.50</price>
+                  <description iib:valueType="CHARACTER">Thick slices made from our homemade sourdough bread</description>
+                  <calories iib:valueType="CHARACTER">600</calories>
+               </food>
+               <food>
+                  <name iib:valueType="CHARACTER">Homestyle Breakfast</name>
+                  <price iib:valueType="CHARACTER">6.95</price>
+                  <description iib:valueType="CHARACTER">Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+                  <calories iib:valueType="CHARACTER">350</calories>
+               </food>
+            </lunch>
+         </menu>
+      </XMLNSC>
+   </message>
+</MessageAssembly>

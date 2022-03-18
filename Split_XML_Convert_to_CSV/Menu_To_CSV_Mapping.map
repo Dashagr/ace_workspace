@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <input path="/breakfast-compute.xsd"/>
+    <output path="mbsharedlib://XMLMenuLibrary/CSV_schema.xsd"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="Menu_To_CSV_Mapping">
+        <input path="mb:msg(menu,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_menu"/>
+        <output path="mb:msg(CSV_schema,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_CSV_schema"/>
+        <move>
+            <input path="$ComIbmMessageAssembly_menu/Properties"/>
+            <output path="$ComIbmMessageAssembly_CSV_schema/Properties"/>
+            <override>
+                <assign value="{XMLMenuLibrary}">
+                    <output path="$ComIbmMessageAssembly_CSV_schema/Properties/MessageSet"/>
+                </assign>
+                <assign value="{}:CSV_schema">
+                    <output path="$ComIbmMessageAssembly_CSV_schema/Properties/MessageType"/>
+                </assign>
+            </override>
+        </move>
+        <foreach>
+            <input path="$ComIbmMessageAssembly_menu/menu/breakfast_menu/Food"/>
+            <output path="$ComIbmMessageAssembly_CSV_schema/CSV_schema/food"/>
+            <move>
+                <input path="Name"/>
+                <output path="name"/>
+            </move>
+            <move>
+                <input path="Price"/>
+                <output path="price"/>
+            </move>
+            <move>
+                <input path="Description"/>
+                <output path="description"/>
+            </move>
+            <move>
+                <input path="Calories"/>
+                <output path="calories"/>
+            </move>
+            <move>
+                <input path="Value"/>
+                <output path="value"/>
+            </move>
+        </foreach>
+    </mappingDeclaration>
+</mappingRoot>

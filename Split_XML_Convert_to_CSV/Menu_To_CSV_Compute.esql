@@ -1,0 +1,77 @@
+
+
+CREATE COMPUTE MODULE Menu_To_CSV_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
+
+		DECLARE breakfast_food REFERENCE TO InputRoot.XMLNSC.menu.breakfast_menu.food;
+		DECLARE breakfast_statement REFERENCE TO OutputRoot.XMLNSC.menu.breakfast_menu;
+		DECLARE breakfast_estimate DECIMAL;
+		
+		WHILE LASTMOVE(breakfast_food) DO
+			CREATE LASTCHILD OF OutputRoot.XMLNSC.menu.breakfast_menu AS breakfast_statement Type XMLNSC.Folder Name 'Food';
+			
+			SET breakfast_statement.(XMLNSC.Field)Name = breakfast_food.name;
+			SET breakfast_statement.(XMLNSC.Field)Price = breakfast_food.price;
+			SET breakfast_statement.(XMLNSC.Field)Description = breakfast_food.description;
+			SET breakfast_statement.(XMLNSC.Field)Calories = breakfast_food.calories;
+			SET breakfast_estimate = 0;
+			
+			SET breakfast_estimate = (CAST(breakfast_food.price AS DECIMAL)) / (CAST(breakfast_food.calories AS INTEGER));
+			
+			SET breakfast_statement.(XMLNSC.Field)Value = breakfast_estimate;
+			
+			MOVE breakfast_food NEXTSIBLING NAME 'food';
+		END WHILE;
+		
+		PROPAGATE TO LABEL 'httpreply';
+		
+		
+		
+		
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
+
+		DECLARE lunch_food REFERENCE TO InputRoot.XMLNSC.menu.lunch.food;
+		DECLARE lunch_statement REFERENCE TO OutputRoot.XMLNSC.menu.lunch;
+		DECLARE lunch_estimate DECIMAL;
+		
+		WHILE LASTMOVE(lunch_food) DO
+			CREATE LASTCHILD OF OutputRoot.XMLNSC.menu.lunch AS lunch_statement Type XMLNSC.Folder Name 'Food';
+			
+			SET lunch_statement.(XMLNSC.Field)Name = lunch_food.name;
+			SET lunch_statement.(XMLNSC.Field)Price = lunch_food.price;
+			SET lunch_statement.(XMLNSC.Field)Description = lunch_food.description;
+			SET lunch_statement.(XMLNSC.Field)Calories = lunch_food.calories;
+			SET lunch_estimate = 0;
+			
+			SET lunch_estimate = (CAST(lunch_food.price AS DECIMAL)) / (CAST(lunch_food.calories AS INTEGER));
+			
+			SET lunch_statement.(XMLNSC.Field)Value = lunch_estimate;
+			
+			MOVE lunch_food NEXTSIBLING NAME 'food';
+		END WHILE;
+		
+		PROPAGATE TO LABEL 'mqmessage';
+
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

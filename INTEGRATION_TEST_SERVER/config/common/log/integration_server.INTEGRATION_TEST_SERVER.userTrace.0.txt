@@ -1,0 +1,138 @@
+
+====== Starting plaintext trace (process ID 55766 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-16 15:24:45.374496 ===
+
+
+====== Starting plaintext trace (process ID 57406 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-16 15:38:26.677744 ===
+
+
+====== Starting plaintext trace (process ID 6931 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-17 12:50:54.408732 ===
+
+
+====== Starting plaintext trace (process ID 9289 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-17 13:21:07.141151 ===
+
+
+====== Starting plaintext trace (process ID 13582 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-18 14:37:17.923688 ===
+
+
+====== Starting plaintext trace (process ID 3019 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-18 15:36:01.515913 ===
+
+
+====== Starting plaintext trace (process ID 7764 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-19 11:52:29.279774 ===
+
+
+====== Starting plaintext trace (process ID 10171 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-19 13:07:23.156974 ===
+
+
+====== Starting plaintext trace (process ID 12174 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-19 13:30:05.590021 ===
+
+
+====== Starting plaintext trace (process ID 9187 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-29 14:48:19.070738 ===
+
+
+====== Starting plaintext trace (process ID 7032 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 13:32:22.362838 ===
+
+
+====== Starting plaintext trace (process ID 8192 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 13:50:40.224632 ===
+
+
+====== Starting plaintext trace (process ID 8664 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 13:55:42.289308 ===
+
+2021-11-30 14:35:58.541824     8700  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='8664', Key='0', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='integration_server', integrationNodeUUID='', integrationServerName='INTEGRATION_TEST_SERVER', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='json_to_xml_flow', StartDate='2021-11-30', StartTime='14:35:48.199838', GMTStartTime='2021-11-30T12:35:48.199+00:00', EndDate='2021-11-30', GMTEndTime='2021-11-30T12:35:58.200+00:00', EndTime='14:35:58.200596', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='215', ElapsedTimeWaitingForInputMessage='10000413', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='0', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'json_to_xml_flow' in integration node 'integration_server'. 
+This is an information message produced by ACE statistics. 
+2021-11-30 14:35:58.542356     8700  UserTrace   BIP2382I: ACE node statistics. ProcessID='8664', Key='0', Label='HTTP Input', Type='WSInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='4'. 
+Statistical information for node 'HTTP Input'. 
+This is an information message produced by ACE statistics. 
+2021-11-30 14:35:58.542476     8700  UserTrace   BIP2382I: ACE node statistics. ProcessID='8664', Key='0', Label='MQ Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Output'. 
+This is an information message produced by ACE statistics. 
+2021-11-30 14:35:58.542564     8700  UserTrace   BIP2382I: ACE node statistics. ProcessID='8664', Key='0', Label='Mapping', Type='MSLMappingNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'Mapping'. 
+This is an information message produced by ACE statistics. 
+
+====== Starting plaintext trace (process ID 12506 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 14:48:06.959074 ===
+
+
+====== Starting plaintext trace (process ID 3755 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-02 10:02:13.287032 ===
+
+
+====== Starting plaintext trace (process ID 20632 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-02 13:29:40.522840 ===
+
+
+====== Starting plaintext trace (process ID 25896 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-08 16:21:00.797843 ===
+
+
+====== Starting plaintext trace (process ID 10056 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-10 11:22:52.863620 ===
+

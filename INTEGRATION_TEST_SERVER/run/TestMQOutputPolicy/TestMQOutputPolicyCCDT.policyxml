@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="MQEndpoint" policyName="TestMQOutputPolicyCCDT" policyTemplate="MQEndpoint">
+    <connection>CCDT</connection>
+    <destinationQueueManagerName>QMTEST</destinationQueueManagerName>
+    <queueManagerHostname>localhost</queueManagerHostname>
+    <listenerPortNumber>2048</listenerPortNumber>
+    <channelName>CHNL.QMTEST</channelName>
+    <CCDTUrl>/var/mqm/qmgrs/QMTEST/@ipcc/</CCDTUrl>
+    <securityIdentity>appuserTestMQSecurityIdentity</securityIdentity>
+    <useSSL>false</useSSL>
+    <SSLPeerName></SSLPeerName>
+    <SSLCipherSpec></SSLCipherSpec>
+    <SSLCertificateLabel></SSLCertificateLabel>
+    <MQApplName></MQApplName>
+    <reconnectOption>default</reconnectOption>
+  </policy>
+</policies>

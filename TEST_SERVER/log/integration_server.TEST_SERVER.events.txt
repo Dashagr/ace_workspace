@@ -1,0 +1,48 @@
+2022-03-18 15:10:20.200208Z: [Thread 4750] (Msg 1/1) BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.1.0' (64-bit) 
+2022-03-18 15:10:20.229906Z: [Thread 4750] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2022-03-18 15:10:58.815768Z: [Thread 4750] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2022-03-18 15:10:58.875960Z: [Thread 4750] (Msg 1/1) BIP9907I: Initializing deployed resources. 
+2022-03-18 15:10:58.883048Z: [Thread 4750] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'DataLibrary' of type 'SharedLibrary'. 
+2022-03-18 15:10:58.887732Z: [Thread 4750] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 15:11:00.103218Z: [Thread 4750] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 15:11:08.958363Z: [Thread 4911] (Msg 1/1) BIP3585E: Failed to create required connections in connection manager using connection details '{TCPIPPolicies}:TCPIPTutorialClient'. 
+2022-03-18 15:11:08.966001Z: [Thread 4911] (Msg 1/1) BIP3586E: Failed to create a client connection using hostname: 'localhost', port: '7778'. Reason: 'Connection refused'. 
+2022-03-18 15:11:08.978840Z: [Thread 4911] (Msg 1/1) BIP3585E: Failed to create required connections in connection manager using connection details '{TCPIPPolicies}:TCPIPTutorialClient'. 
+2022-03-18 15:11:08.979211Z: [Thread 4911] (Msg 1/1) BIP3586E: Failed to create a client connection using hostname: 'localhost', port: '7778'. Reason: 'Connection refused'. 
+2022-03-18 15:11:09.000328Z: [Thread 4750] (Msg 1/1) BIP5731W: TCPIP Server Connection manager with connection details: '{TCPIPPolicies}:TCPIPTutorialServer' is being 'started'. 
+2022-03-18 15:11:09.001430Z: [Thread 4750] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 15:11:09.001693Z: [Thread 4750] (Msg 1/1) BIP2269I: Deployed resource 'TCPIPReceiver' (uuid='TCPIPReceiver',type='MessageFlow') started successfully. 
+2022-03-18 15:11:09.001751Z: [Thread 4750] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 15:11:09.013173Z: [Thread 4750] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2022-03-18 15:11:09.013236Z: [Thread 4750] (Msg 1/1) BIP1996I: Listening on HTTP URL '/TestTcpip'. 
+2022-03-18 15:11:09.013411Z: [Thread 4750] (Msg 1/1) BIP2269I: Deployed resource 'TCPIPProvider' (uuid='TCPIPProvider',type='MessageFlow') started successfully. 
+2022-03-18 15:11:12.491764Z: [Thread 4856] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2022-03-18 15:11:12.519847Z: [Thread 4856] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2022-03-18 15:11:12.533038Z: [Thread 4750] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2022-03-18 15:11:35.082712Z: [Thread 4756] (Msg 1/1) BIP2152I: Configuration message received. 
+2022-03-18 15:11:35.082796Z: [Thread 4756] (Msg 1/1) BIP2153I: About to 'deleteAll' an integration server. 
+2022-03-18 15:11:35.083116Z: [Thread 4756] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 15:11:40.017628Z: [Thread 4756] (Msg 1/1) BIP2271I: Deployed resource 'TCPIPReceiver' (uuid='TCPIPReceiver',type='MessageFlow') successfully stopped. 
+2022-03-18 15:11:40.017820Z: [Thread 4756] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'TCPIPClient' of type 'Application'. 
+2022-03-18 15:11:40.018708Z: [Thread 4756] (Msg 1/1) BIP5731W: TCPIP Server Connection manager with connection details: '{TCPIPPolicies}:TCPIPTutorialClient' is being 'stopped'. 
+2022-03-18 15:11:40.036172Z: [Thread 4756] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 15:11:40.036628Z: [Thread 4756] (Msg 1/1) BIP2271I: Deployed resource 'TCPIPProvider' (uuid='TCPIPProvider',type='MessageFlow') successfully stopped. 
+2022-03-18 15:11:40.036748Z: [Thread 4756] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'TCPIPServer' of type 'Application'. 
+2022-03-18 15:11:40.056528Z: [Thread 4756] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2022-03-18 15:11:40.057304Z: [Thread 4756] (Msg 1/1) BIP5731W: TCPIP Server Connection manager with connection details: '{TCPIPPolicies}:TCPIPTutorialServer' is being 'stopped'. 
+2022-03-18 15:11:40.072960Z: [Thread 4756] (Msg 1/1) BIP9521I: Application 'TCPIPClient' has been deleted. 
+2022-03-18 15:11:40.176944Z: [Thread 4756] (Msg 1/1) BIP9521I: Application 'TCPIPServer' has been deleted. 
+2022-03-18 15:11:40.177084Z: [Thread 4756] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'DataLibrary' of type 'SharedLibrary'. 
+2022-03-18 15:11:40.180568Z: [Thread 4756] (Msg 1/1) BIP9521I: SharedLibrary 'DataLibrary' has been deleted. 
+2022-03-18 15:11:40.181000Z: [Thread 4756] (Msg 1/1) BIP9521I: PolicyProject 'TCPIPPolicies' has been deleted. 
+2022-03-18 15:11:40.184744Z: [Thread 4756] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2022-03-18 15:11:51.971292Z: [Thread 4765] (Msg 1/1) BIP2152I: Configuration message received. 
+2022-03-18 15:11:51.989244Z: [Thread 4765] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'TemperatureConverter' of type 'IntegrationService'. 
+2022-03-18 15:11:56.227776Z: [Thread 4765] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'TemperatureConverter/$mqsiApplication.bir'. 
+2022-03-18 15:11:57.109556Z: [Thread 4765] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2022-03-18 15:11:57.110276Z: [Thread 4765] (Msg 1/1) BIP1996I: Listening on HTTP URL '/TemperatureConverter/TemperatureConverter'. 
+2022-03-18 15:11:57.111204Z: [Thread 4765] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'TemperatureConverter' of type 'IntegrationService'. 
+2022-03-18 15:11:57.111448Z: [Thread 4765] (Msg 1/1) BIP2269I: Deployed resource 'gen.TemperatureConverter' (uuid='gen.TemperatureConverter',type='MessageFlow') started successfully. 
+2022-03-18 15:11:57.111500Z: [Thread 4765] (Msg 1/1) BIP9332I: IntegrationService 'TemperatureConverter' has been created successfully. 
+2022-03-18 15:11:57.111536Z: [Thread 4765] (Msg 1/1) BIP9326I: The source 'TemperatureConverter.bar' has been successfully deployed. 
+2022-03-18 15:11:57.111688Z: [Thread 4765] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 

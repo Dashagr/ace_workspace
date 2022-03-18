@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <input path="mbsharedlib://XMLMenuLibrary/CSV_schema.xsd"/>
+    <output path="/breakfast-compute.xsd"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="CSV_To_XML_Mapping">
+        <input path="mb:msg(CSV_schema,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_CSV_schema"/>
+        <output path="mb:msg(menu,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_menu"/>
+        <move>
+            <input path="$ComIbmMessageAssembly_CSV_schema/Properties"/>
+            <output path="$ComIbmMessageAssembly_menu/Properties"/>
+        </move>
+        <foreach>
+            <input path="$ComIbmMessageAssembly_CSV_schema/CSV_schema/food"/>
+            <output path="$ComIbmMessageAssembly_menu/menu/breakfast_menu/Food"/>
+            <move>
+                <input path="name"/>
+                <output path="Name"/>
+            </move>
+            <move>
+                <input path="price"/>
+                <output path="Price"/>
+            </move>
+            <move>
+                <input path="description"/>
+                <output path="Description"/>
+            </move>
+            <move>
+                <input path="calories"/>
+                <output path="Calories"/>
+            </move>
+            <move>
+                <input path="value"/>
+                <output path="Value"/>
+            </move>
+        </foreach>
+    </mappingDeclaration>
+</mappingRoot>

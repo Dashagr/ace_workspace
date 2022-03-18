@@ -1,0 +1,51 @@
+CREATE COMPUTE MODULE GetMyMenu_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+
+		CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
+
+		DECLARE food REFERENCE TO InputRoot.XMLNSC.breakfast_menu.food;
+		DECLARE statement REFERENCE TO OutputRoot.XMLNSC.breakfast_menu;
+		DECLARE estimate DECIMAL;
+		
+		WHILE LASTMOVE(food) DO
+			CREATE LASTCHILD OF OutputRoot.XMLNSC.breakfast_menu AS statement Type XMLNSC.Folder Name 'Statement';
+			
+			SET statement.(XMLNSC.Attribute)Report = 'Full';
+			SET statement.Customer.(XMLNSC.Field)Name = food.name;
+			SET statement.Customer.(XMLNSC.Field)Price = food.price;
+			SET statement.Customer.(XMLNSC.Field)Description = food.description;
+			SET statement.Customer.(XMLNSC.Field)Calories = food.calories;
+			SET estimate = 0;
+			
+			SET estimate = (CAST(food.price AS DECIMAL)) / (CAST(food.calories AS INTEGER));
+			
+			SET statement.(XMLNSC.Field)Value = estimate;
+			
+			MOVE food NEXTSIBLING NAME 'food';
+		END WHILE;
+		
+		PROPAGATE TO LABEL 'httpresponse';
+		PROPAGATE TO LABEL 'mqmessage';
+		PROPAGATE TO LABEL 'filemessage';
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

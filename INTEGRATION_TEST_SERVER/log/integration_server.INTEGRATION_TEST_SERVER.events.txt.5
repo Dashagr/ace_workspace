@@ -1,0 +1,67 @@
+2021-11-30 11:55:42.347720Z: [Thread 8664] (Msg 1/1) BIP1990I: Integration server 'INTEGRATION_TEST_SERVER' starting initialization; version '12.0.1.0' (64-bit) 
+2021-11-30 11:55:42.352532Z: [Thread 8664] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2021-11-30 11:55:45.483264Z: [Thread 8664] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2021-11-30 11:55:45.945288Z: [Thread 8745] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2021-11-30 11:55:45.955728Z: [Thread 8745] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7601' for 'RestAdmin http' connections. 
+2021-11-30 11:55:45.956684Z: [Thread 8664] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2021-11-30 11:55:53.786888Z: [Thread 8670] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-11-30 11:55:53.798152Z: [Thread 8670] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 11:55:53.998636Z: [Thread 8670] (Msg 1/1) BIP9332I: PolicyProject 'TestMQOutputPolicy' has been created successfully. 
+2021-11-30 11:55:53.998692Z: [Thread 8670] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 11:55:54.009708Z: [Thread 8670] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7801' for 'http' connections. 
+2021-11-30 11:55:54.009752Z: [Thread 8670] (Msg 1/1) BIP1996I: Listening on HTTP URL '/jsontoxml'. 
+2021-11-30 11:55:54.009860Z: [Thread 8670] (Msg 1/1) BIP2269I: Deployed resource 'json_to_xml_flow' (uuid='json_to_xml_flow',type='MessageFlow') started successfully. 
+2021-11-30 11:55:54.009900Z: [Thread 8670] (Msg 1/1) BIP9332I: Application 'JSON_to_XML' has been created successfully. 
+2021-11-30 11:55:54.009924Z: [Thread 8670] (Msg 1/1) BIP9326I: The source 'json.bar' has been successfully deployed. 
+2021-11-30 11:55:54.010052Z: [Thread 8670] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-11-30 11:56:05.642488Z: [Thread 8787] (Msg 1/3) BIP3120E: Exception condition detected on input node 'json_to_xml_flow.HTTP Input'. 
+2021-11-30 11:56:05.642624Z: [Thread 8787] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'json_to_xml_flow.MQ Output'. 
+2021-11-30 11:56:05.642760Z: [Thread 8787] (Msg 3/3) BIP2690E: Failed to make a CCDT connection to queue manager 'QMTEST': MQCC=2; MQRC=2058. 
+2021-11-30 11:57:38.028016Z: [Thread 8787] (Msg 1/3) BIP3120E: Exception condition detected on input node 'json_to_xml_flow.HTTP Input'. 
+2021-11-30 11:57:38.028096Z: [Thread 8787] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'json_to_xml_flow.MQ Output'. 
+2021-11-30 11:57:38.028160Z: [Thread 8787] (Msg 3/3) BIP2690E: Failed to make a CCDT connection to queue manager 'QMTEST': MQCC=2; MQRC=2058. 
+2021-11-30 12:02:17.907530Z: [Thread 8671] (Msg 1/1) BIP1364E: The policy project 'TestMQOutputPolicy' cannot be deleted because the application 'JSON_to_XML' depends on policies contained within the project. 
+2021-11-30 12:02:17.907670Z: [Thread 8672] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:02:19.050882Z: [Thread 8672] (Msg 1/1) BIP2271I: Deployed resource 'json_to_xml_flow' (uuid='json_to_xml_flow',type='MessageFlow') successfully stopped. 
+2021-11-30 12:02:19.051122Z: [Thread 8672] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:02:19.061622Z: [Thread 8672] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7801' for 'http' connections. 
+2021-11-30 12:02:19.075398Z: [Thread 8672] (Msg 1/1) BIP9521I: Application 'JSON_to_XML' has been deleted. 
+2021-11-30 12:02:23.016066Z: [Thread 8675] (Msg 1/1) BIP9521I: PolicyProject 'TestMQOutputPolicy' has been deleted. 
+2021-11-30 12:02:54.108664Z: [Thread 8676] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-11-30 12:02:54.114320Z: [Thread 8676] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:02:54.163168Z: [Thread 8676] (Msg 1/1) BIP9332I: PolicyProject 'TestMQOutputPolicy' has been created successfully. 
+2021-11-30 12:02:54.163248Z: [Thread 8676] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:02:54.173944Z: [Thread 8676] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7801' for 'http' connections. 
+2021-11-30 12:02:54.173984Z: [Thread 8676] (Msg 1/1) BIP1996I: Listening on HTTP URL '/jsontoxml'. 
+2021-11-30 12:02:54.174108Z: [Thread 8676] (Msg 1/1) BIP2269I: Deployed resource 'json_to_xml_flow' (uuid='json_to_xml_flow',type='MessageFlow') started successfully. 
+2021-11-30 12:02:54.174148Z: [Thread 8676] (Msg 1/1) BIP9332I: Application 'JSON_to_XML' has been created successfully. 
+2021-11-30 12:02:54.174184Z: [Thread 8676] (Msg 1/1) BIP9326I: The source 'json5.bar' has been successfully deployed. 
+2021-11-30 12:02:54.174328Z: [Thread 8676] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-11-30 12:03:32.358562Z: [Thread 9161] (Msg 1/3) BIP3120E: Exception condition detected on input node 'json_to_xml_flow.HTTP Input'. 
+2021-11-30 12:03:32.358712Z: [Thread 9161] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'json_to_xml_flow.MQ Output'. 
+2021-11-30 12:03:32.358856Z: [Thread 9161] (Msg 3/3) BIP2690E: Failed to make a CCDT connection to queue manager 'QMTEST': MQCC=2; MQRC=2058. 
+2021-11-30 12:31:28.908554Z: [Thread 8677] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-11-30 12:31:28.913458Z: [Thread 8677] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:31:33.476880Z: [Thread 8677] (Msg 1/1) BIP2271I: Deployed resource 'json_to_xml_flow' (uuid='json_to_xml_flow',type='MessageFlow') successfully stopped. 
+2021-11-30 12:31:33.477104Z: [Thread 8677] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:31:33.486476Z: [Thread 8677] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7801' for 'http' connections. 
+2021-11-30 12:31:33.501622Z: [Thread 8677] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:31:37.169664Z: [Thread 8677] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'JSON_to_XML/$mqsiApplication.bir'. 
+2021-11-30 12:31:37.283804Z: [Thread 8677] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:31:37.294512Z: [Thread 8677] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7801' for 'http' connections. 
+2021-11-30 12:31:37.294580Z: [Thread 8677] (Msg 1/1) BIP1996I: Listening on HTTP URL '/jsontoxml'. 
+2021-11-30 12:31:37.294740Z: [Thread 8677] (Msg 1/1) BIP2269I: Deployed resource 'json_to_xml_flow' (uuid='json_to_xml_flow',type='MessageFlow') started successfully. 
+2021-11-30 12:31:37.294788Z: [Thread 8677] (Msg 1/1) BIP9332I: Application 'JSON_to_XML' has been changed successfully. 
+2021-11-30 12:31:37.294824Z: [Thread 8677] (Msg 1/1) BIP9326I: The source 'JSON_to_XMLproject.TestMode.bar' has been successfully deployed. 
+2021-11-30 12:31:37.294980Z: [Thread 8677] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-11-30 12:33:12.186390Z: [Thread 11785] (Msg 1/4) BIP3120E: Exception condition detected on input node 'json_to_xml_flow.HTTP Input'. 
+2021-11-30 12:33:12.186436Z: [Thread 11785] (Msg 2/4) BIP2230E: Error detected whilst processing a message in node 'json_to_xml_flow.Mapping'. 
+2021-11-30 12:33:12.186460Z: [Thread 11785] (Msg 3/4) BIP2230E: Error detected whilst processing a message in node 'json_to_xml_flow.MQ Output'. 
+2021-11-30 12:33:12.186496Z: [Thread 11785] (Msg 4/4) BIP2690E: Failed to make a CCDT connection to queue manager 'QMTEST': MQCC=2; MQRC=2058. 
+2021-11-30 12:35:54.942500Z: [Thread 8664] (Msg 1/1) BIP1989I: Integration server is terminating due to a shutdown event. 
+2021-11-30 12:36:04.957224Z: [Thread 8664] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:36:08.202356Z: [Thread 8664] (Msg 1/1) BIP2271I: Deployed resource 'json_to_xml_flow' (uuid='json_to_xml_flow',type='MessageFlow') successfully stopped. 
+2021-11-30 12:36:09.706956Z: [Thread 8664] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'JSON_to_XML' of type 'Application'. 
+2021-11-30 12:36:09.711239Z: [Thread 8664] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7801' for 'http' connections. 
+2021-11-30 12:36:09.724485Z: [Thread 8664] (Msg 1/1) BIP2801E: Unable to load implementation file 'libXAJdbcJni.so', rc=Null pointer. 
+2021-11-30 12:36:10.365475Z: [Thread 8664] (Msg 1/1) BIP1992I: Integration server 'INTEGRATION_TEST_SERVER' stopped. 

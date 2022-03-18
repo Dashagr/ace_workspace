@@ -1,0 +1,126 @@
+
+====== Starting plaintext trace (process ID 55766 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-16 15:24:45.374440 ===
+
+
+====== Starting plaintext trace (process ID 57406 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-16 15:38:26.677690 ===
+
+
+====== Starting plaintext trace (process ID 6931 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-17 12:50:54.408688 ===
+
+
+====== Starting plaintext trace (process ID 9289 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-17 13:21:07.141110 ===
+
+
+====== Starting plaintext trace (process ID 13582 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-18 14:37:17.923640 ===
+
+
+====== Starting plaintext trace (process ID 3019 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-18 15:36:01.515860 ===
+
+
+====== Starting plaintext trace (process ID 7764 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-19 11:52:29.279712 ===
+
+
+====== Starting plaintext trace (process ID 10171 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-19 13:07:23.156936 ===
+
+
+====== Starting plaintext trace (process ID 12174 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-19 13:30:05.589979 ===
+
+
+====== Starting plaintext trace (process ID 9187 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-29 14:48:19.070668 ===
+
+
+====== Starting plaintext trace (process ID 7032 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 13:32:22.362776 ===
+
+
+====== Starting plaintext trace (process ID 8192 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 13:50:40.224592 ===
+
+
+====== Starting plaintext trace (process ID 8664 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 13:55:42.289260 ===
+
+
+====== Starting plaintext trace (process ID 12506 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-11-30 14:48:06.959037 ===
+
+
+====== Starting plaintext trace (process ID 3755 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-02 10:02:13.283120 ===
+
+
+====== Starting plaintext trace (process ID 20632 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-02 13:29:40.522796 ===
+
+
+====== Starting plaintext trace (process ID 25896 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-08 16:21:00.791827 ===
+
+
+====== Starting plaintext trace (process ID 10056 - integration_server.INTEGRATION_TEST_SERVER) ======
+=== Build ib000-L210520.1569 (S000-L210520.10620) - IBM App Connect Enterprise 12.0.1.0 ===
+=== Platform Linux / x86_64 / 5.11.12-300.fc34.x86_64 ===
+=== Timestamps are formatted in local time, 120 minutes past GMT. ===
+=== Time now 2021-12-10 11:22:52.852396 ===
+

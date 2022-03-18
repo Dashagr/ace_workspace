@@ -1,0 +1,48 @@
+
+==============================================
+
+!Wed Mar 31 23:23:36 BST 2021
+
+Successfully added file TemperatureConverter\gen\TemperatureConverter.msgflow to BAR file.
+
+Successfully added file TemperatureConverter\CtoFrequest.xml to BAR file.
+
+Successfully added file TemperatureConverter\FtoCrequest.xml to BAR file.
+
+Successfully added file TemperatureConverter\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd to BAR file.
+
+Successfully added file TemperatureConverter\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd to BAR file.
+
+Successfully added file TemperatureConverter\IBMdefined\soap.xsd to BAR file.
+
+Successfully added file TemperatureConverter\TemperatureConverter.wsdl to BAR file.
+
+Successfully added file TemperatureConverter\TemperatureConverter.xsd to BAR file.
+
+Successfully added file TemperatureConverter\TemperatureConverter_InlineSchema1.xsd to BAR file.
+
+Successfully added file TemperatureConverter\gen\CtoF_Request_Response.subflow to BAR file.
+
+Successfully added file TemperatureConverter\gen\CtoF_Request_Response_Mapping_C_to_F.map to BAR file.
+
+Successfully added file TemperatureConverter\gen\FtoC_Request_Response.subflow to BAR file.
+
+Successfully added file TemperatureConverter\gen\FtoC_Request_Response_Mapping_F_to_C.map to BAR file.
+
+Successfully added file TemperatureConverter\gen\TemperatureConverterInputCatchHandler.subflow to BAR file.
+
+Successfully added file TemperatureConverter\gen\TemperatureConverterInputCatchHandler_Mapping.map to BAR file.
+
+Successfully added file TemperatureConverter\gen\TemperatureConverterInputFailureHandler.subflow to BAR file.
+
+Successfully added file TemperatureConverter\gen\TemperatureConverterInputFailureHandler_Mapping.map to BAR file.
+
+Successfully added file TemperatureConverter\gen\TemperatureConverterInputHTTPTimeoutHandler.subflow to BAR file.
+
+Successfully added file TemperatureConverter\service.descriptor to BAR file.
+
+Successfully added file TemperatureConverter\service.descriptor to BAR file.
+
+Successfully added file TemperatureConverter\service.descriptor to BAR file.
+
+Successfully added file TemperatureConverter\service.descriptor to BAR file.

@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Message",
+    "description": "My simple JSON schema",    
+    "type": "object",
+    "properties": {
+      "Output": {
+        "description": "An output string",
+        "type": "string"
+      }
+    },
+    "required": ["Output"]
+}
